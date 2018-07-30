@@ -1,7 +1,5 @@
 # trac-invalidate-knownuserscache
 
-## Overview
-
 This plugin will invalidate known users cache (calling `invalidate_known_users_cache()`) for every login request to avoid out of sync.
 
 ## Background
