@@ -8,3 +8,4 @@ class InvalidateKnownUserCacheAuthenticator(Component):
 
     def authenticate(self, req):
         self.env.invalidate_known_users_cache()
+        return None
